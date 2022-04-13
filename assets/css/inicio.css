@@ -1,0 +1,271 @@
+#flex-container {
+    display: flex;
+    
+    
+}
+
+
+#logotipo {
+    margin: 2%;
+    width: 85%;
+}
+
+#collage {
+    margin: 2%;
+    width: 95%;
+}
+
+.img-rounded{
+  width: 190px;
+  height: 200px;
+}
+
+
+.coverImage {
+    width: 100%;
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  a:hover {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+
+
+/*Small devices (landscape phones, 390px and up)*/
+@media (min-width: 390px) { 
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+
+
+    .col {
+       
+        margin: 2%;
+        display: inline;
+        width: 20%;
+       
+    }
+    
+    .container2 {
+        align-self: center;
+    }
+
+    .paragraph-title {
+        display: block;
+        width: 190px;
+        background-color: #611dbb;        ;
+        color: black;
+        text-align: center;
+        padding: 4px;
+    }
+
+    .paragraph-title:hover {
+        background-color: #ceb442;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:visited{ 
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }      
+ }
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) { 
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+ 
+  
+  
+  .col {
+        
+        margin: 2%;
+        display: inline;
+        width: 20%;
+       
+    }
+    
+    .container2 {
+        align-self: center;
+    }
+
+    .paragraph-title {
+        background-color: #611dbb;        ;
+        color: black;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .paragraph-title:hover {
+        background-color: #ceb442;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }     
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+  
+  
+  .col {
+        
+        margin: 2%;
+        display: inline;
+        width: 20%;
+       
+    }
+    
+    .container2 {
+        align-self: center;
+    }
+
+    .paragraph-title {
+        background-color: #611dbb;        ;
+        color: black;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .paragraph-title:hover {
+        background-color: #ceb442;
+    }    
+    a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }   
+
+
+ }
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+  body{
+    background-image: url(/assets/img/fondo-azul2.jpg);
+   /* Center and scale the image nicely */
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-attachment: fixed;
+}
+  
+  
+  
+  .col {
+        
+        margin: 2%;
+        display: inline;
+        width: 20%;
+       
+    }
+    
+    .container2 {
+        align-self: center;
+    }
+
+    .paragraph-title {
+        background-color: #611dbb;        ;
+        color: black;
+        text-align: center;
+        padding: 8px;
+    }
+
+    .paragraph-title:hover {
+        background-color: #ceb442;
+    }
+    a {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:visited {
+        text-decoration: none;
+        color: inherit;
+      }
+      a:hover {
+        text-decoration: none;
+        color: inherit;
+      }  
+     
+      .example-1 {
+    width: fit-content;}
+  
+      .dispo {
+        position: absolute;
+        background-color: green;
+        color: #fff;
+        padding-bottom: 0%;
+      }
+      .dispo span .disponible{
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+     
+      .rented {
+        position: absolute;
+        background-color: red;
+        color: #fff;
+        padding-bottom: 0%;
+      }
+      .rented span .nodisponible{
+        text-align: center;
+        color: white;
+        font-size: 12px;
+        text-transform: uppercase;
+      }
+ }
+ 
