@@ -1,8 +1,8 @@
 const API_URL = "http://localhost:8080/movies";
 let movies = [];
-let delleteId = null;
+let deleteId = null;
 
-//getMovies();
+getMovies();
 
 function getMovies() {
   fetch("http://localhost:8080/movies")
@@ -29,6 +29,18 @@ function printMovies(data) {
     let directorHtml = "<div> " + movie.director + "</div>";
     let yearHtml = "<div> " + movie.year + "</div>";
     let synopsisHtml = "<div> " + movie.synopsis + "}</div>";
+    function btnedit() {
+      var element = document.createElement("button");
+      element.type = "button";
+      element.setAttribute.onclick = "editMovie(${movie.id})";
+      document.flotta.appendChild(element);
+    }
+    function btndelite() {
+    var element = document.createElement("button");
+    element.type = "button";
+    element.setAttribute.onclick = "deleteMovie(${movie.id})";
+    document.flotta.appendChild(element);
+    }
 
     ulElement.innerHTML += titleHtml;
     ulElement.innerHTML += coverImageHtml;
@@ -169,7 +181,7 @@ const updateMovies = () => {
 
   fetch(API_URL, {
     method: "PUT",
-    body: JSON.stringify(movie),
+    body: json.stringify(movie),
     headers: {
       "Content-Type": "application/json",
     },
@@ -209,7 +221,7 @@ const confirmDelete = (res) => {
   }
 };
 
-//* todas las funciones a añadir estan en el archivo reciclaje
+
 
 /**Modal Add Manager */
 

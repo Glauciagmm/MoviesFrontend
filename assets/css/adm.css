@@ -1,6 +1,6 @@
 
 body{
-    /*background-image: url(/img/fondo-morado.jpg);*/
+    background-image: url(/assets/img/image\ 2.png);
    /* Center and scale the image nicely */
    background-position: center;
    background-repeat: no-repeat;
@@ -26,10 +26,11 @@ body{
   
 
 }
+
 .pelicula{
   display: flex;
-  
 }
+
 .product-list{
     margin-top: 20px;
 }
